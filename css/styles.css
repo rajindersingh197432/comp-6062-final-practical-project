@@ -1,0 +1,100 @@
+    .header{
+        background-color: #004d40; 
+        color: #ffffff; 
+        text-align: center;
+        padding: 5px 0; 
+        font-family: Arial, sans-serif;
+    }
+    #header_random{
+        background-color: #ffffff; 
+        color: #000000; 
+        font-size: large;
+        font-weight: bold;  
+        text-align: center; 
+        padding: 5px 0; 
+        padding-top: 0px;
+        height:auto;
+    }
+    #header_weather{
+        background-color: #ffffff; 
+        font-size: large;
+        font-weight: bold;  
+        text-align: center;
+        padding: 5px 0;
+        padding-top: 30px;
+        height:auto;
+    }
+    #header_dict{
+        background-color: #ffffff; 
+        color: #000000; 
+        font-size: large;
+        font-weight: bold;  
+        text-align: center; 
+        padding: 5px 0;
+        padding-top: 0px;
+        height:auto;
+    }
+    footer {
+        background-color: #004d40; 
+        color: #ffffff; 
+        text-align: center; 
+        padding: 5px ; 
+    }
+    #randomfact{
+        background-color: #ffffff; 
+        color: #000000; 
+        font-size: large;
+        font-weight: bold;  
+        text-align: center; 
+        padding: 5px 0; 
+        padding-top: 100px;
+        height:auto;
+    }   
+    #weather{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center; 
+        padding: 5px 0; 
+        padding-top: 100px;
+        height:auto;
+        font-size: large;
+        font-weight: bold;
+    }   
+    #dictionary{
+        background-color: #ffffff; 
+        color: #004d40;
+        text-align: center; 
+        padding: 5px 0; 
+        padding-top: 100px;
+        height:auto;
+        font-size: large;
+        font-weight: bold;
+    }   
+    body{
+        background-color: #ffffff;
+        color: #333333; 
+        margin: 0; 
+        padding: 0;
+        font-family: Arial, sans-serif; 
+    }  
+    @media (max-width: 576px) {
+        .header, footer {
+            padding: 8px 0; 
+        }
+        .footer{
+            padding: 8px 0;
+        }
+        #randomfact, #weather, #dictionary {
+            padding: 15px; 
+            font-size: medium;
+            height: auto; 
+        }
+    }
+ 
+    @media (min-width: 992px) {
+        #randomfact, #weather, #dictionary {
+            padding: 30px; 
+            font-size: large; 
+            height: 300px; 
+        }
+    }
